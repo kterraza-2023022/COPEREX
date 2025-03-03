@@ -6,7 +6,7 @@ import {
 
 const api = Router()
 
-//Rutas privadas (Solo puede acceder si está logeado)
+
 api.get(
     '/', 
     getAll
