@@ -19,13 +19,13 @@ api.post('/',[validateJwt, isAdmin, registerCompany], addCompany)
 
 api.get('/',getCompanies)
 
-// 🔹 Filtrar por años de trayectoria
+
 api.get('/filter/years', getByYears)
 
-// 🔹 Filtrar por categoría
+
 api.get('/filter/category', getByCategory)
 
-// 🔹 Ordenar por nombre (A-Z o Z-A)
+
 api.get('/az', getAZ)
 
 api.get('/za', getZA)
